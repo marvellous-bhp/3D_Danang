@@ -18,7 +18,7 @@ let currentPanorama;
 
 const panoramas = [
     {
-        url: 'textures/caurong.jpg',
+        url: './examples/textures/caurong.jpg',
         description: 'Cầu Rồng',
         coordinates: { lat: 10.123456, lng: 105.654321 },
         connectedPanoramas: [
@@ -26,7 +26,7 @@ const panoramas = [
         ]
     },
     {
-        url: 'textures/viewbiensontra.jpg',
+        url: './examples/textures/viewbiensontra.jpg',
         description: 'Biển Sơn Trà',
         coordinates: { lat: 10.987654, lng: 106.543210 },
         connectedPanoramas: [
@@ -36,7 +36,7 @@ const panoramas = [
         ]
     },
     {
-        url: 'textures/waytosontra.jpg',
+        url: './examples/textures/waytosontra.jpg',
         description: 'Đường lên bán đảo Sơn Trà',
         coordinates: { lat: 10.987654, lng: 106.543210 },
         connectedPanoramas: [
@@ -45,7 +45,7 @@ const panoramas = [
         ]
     },
     {
-        url: 'textures/sontra2.jpg',
+        url: './examples/textures/sontra2.jpg',
         description: 'Bán Đảo Sơn Trà',
         coordinates: { lat: 10.987654, lng: 106.543210 },
         connectedPanoramas: [
@@ -56,7 +56,7 @@ const panoramas = [
         ]
     },
     {
-        url: 'textures/amshonest.jpg',
+        url: './examples/textures/amshonest.jpg',
         description: 'Con đường đẹp nhất Đà Nẵng',
         coordinates: { lat: 10.987654, lng: 106.543210 },
         connectedPanoramas: [
@@ -66,7 +66,7 @@ const panoramas = [
         ]
     },
     {
-        url: 'textures/baidasontra.jpg',
+        url: './examples/textures/baidasontra.jpg',
         description: 'Bãi Đá Sơn Trà',
         coordinates: { lat: 10.987654, lng: 106.543210 },
         connectedPanoramas: [
@@ -76,7 +76,7 @@ const panoramas = [
         ]
     },
     {
-        url: 'textures/intercorn.jpg',
+        url: './examples/textures/intercorn.jpg',
         description: 'Sơn Trà',
         coordinates: { lat: 10.987654, lng: 106.543210 },
         connectedPanoramas: [
@@ -151,7 +151,7 @@ function loadPanorama(index) {
       directionArrow.style.position = 'absolute';
       directionArrow.style.width = '50px';
       directionArrow.style.height = '50px';
-      directionArrow.style.backgroundImage = 'url(textures/arrow.png)';
+      directionArrow.style.backgroundImage = 'url(./examples/textures/arrow.png)';
       directionArrow.style.backgroundRepeat = 'no-repeat';
       directionArrow.style.backgroundPosition = 'center center';
       directionArrow.style.backgroundSize = 'contain';
